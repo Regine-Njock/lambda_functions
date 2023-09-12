@@ -1,0 +1,13 @@
+
+
+isOdd= lambda a : a % 2 != 0
+
+isEven= lambda b : b % 2 == 0 
+
+getParity= lambda a ,b:True if a % 2 == 0 and  b =='even' else True if a % 2 != 0 and  b =='odd' else 'Parity indicated is unknown' if b !='even' and  b !='odd' else False
+
+print(isOdd(2), isEven(2))
+print(isOdd(1), isEven(1))
+print(getParity(2, 'odd'), getParity(2, 'even'))
+print(getParity(1, 'odd'), getParity(1, 'even'))
+print(getParity(1, 1), getParity(1, 'even'))
